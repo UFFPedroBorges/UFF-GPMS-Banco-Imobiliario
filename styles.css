@@ -12,6 +12,11 @@ section {
 	
 }
 
+.bn60:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: rgb(211, 211, 211);
+  }
+
 .bn60 {
 	align-items: center;
 	appearance: none;
@@ -67,7 +72,15 @@ td {
 	border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
 }
+.menu-item:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: rgb(211, 211, 211);
+  }
 
+.select-box:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: rgb(211, 211, 211);
+  }
 .select-box {
 	position: relative;
 	width: 100%;
@@ -330,13 +343,13 @@ td {
 #menutable {
 	padding: 0px;
 	text-align: left;
-	font-family: Verdana, sans-serif;
+	font-family: 'Google Sans', sans-serif;
 	color: white;
 	font-weight: bold;
 	font-size: 16px;
-	border-radius: 5px 5px 0px 0px;
+	border-radius: 5px;
 	height: 30px;
-	width: 99%;
+	width: 100%;
 	margin: 0px;
 	overflow: hidden;
 }
@@ -588,10 +601,6 @@ td {
 	z-index: 0;
 }
 
-.menu-item:hover {
-	background-image: url(images/menu_background_hover.png);
-}
-
 .menu-item {
 	padding: 0px;
 	border-collapse: collapse;
@@ -783,6 +792,21 @@ td {
 	width: 22px;
 	height: 20px;
 	border: none;
+	position: relative;
+	width: 100%;
+	margin: 3px auto;
+	font-family: "Google Sans",Roboto ,Arial,sans-serif;
+	font-size: 14px;
+	color: #000000;
+	border-radius: 7px;
+	border-style: none;
+	box-sizing: border-box;
+	font-weight: 500;
+	justify-content: center;
+	justify-content: center;
+	letter-spacing: .25px;
+	align-items: center;
+	box-sizing: border-box;
 }
 
 .statscellname {

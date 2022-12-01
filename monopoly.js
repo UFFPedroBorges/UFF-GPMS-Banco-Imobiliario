@@ -1359,8 +1359,8 @@ function updateDice() {
 		element0.classList.remove("die-no-img");
 		element1.classList.remove("die-no-img");
 
-		element0.title = "Die (" + die0 + " spots)";
-		element1.title = "Die (" + die1 + " spots)";
+		element0.title = "Dado (" + die0 + " casas)";
+		element1.title = "Dado (" + die1 + " casas)";
 
 		if (element0.firstChild) {
 			element0 = element0.firstChild;
@@ -2251,7 +2251,7 @@ function land(increasedRent) {
 				buy();
 			}
 		} else {
-			document.getElementById("landed").innerHTML = "<div>Você caiu em <a href='javascript:void(0);' onmouseover='showdeed(" + p.position + ");' onmouseout='hidedeed();' class='statscellcolor'>" + s.name + "</a>.<input type='button' onclick='buy();' value='Comprar ($" + s.price + ")' title='Comprar " + s.name + " por " + s.pricetext + ".'/></div>";
+			document.getElementById("landed").innerHTML = "<div>Você caiu em <a href='javascript:void(0);' onmouseover='showdeed(" + p.position + ");' onmouseout='hidedeed();' class='statscellcolor'>" + s.name + "</a>.</div>";
 		}
 
 
