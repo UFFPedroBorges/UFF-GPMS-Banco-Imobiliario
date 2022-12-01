@@ -57,19 +57,38 @@ td {
 
 #setup {
 	display: none;
-	margin: 15px;
-	align-items: center
-	
+	margin: 1px auto;
+	align-items: center;
+	text-align: center;
+	background-color:  rgba(27, 27, 27, 0.6);
+	backdrop-filter: blur(6px);
+	width: 500px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
 }
 
 .select-box {
 	position: relative;
 	width: 100%;
-	margin: 0 auto;
-	font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+	margin: 3px auto;
+	font-family: "Google Sans",Roboto ,Arial,sans-serif;
 	font-size: 18px;
 	color: #60666d;
-	border-radius: 10px;
+	border-radius: 7px;
+	border-style: none;
+	box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+	box-sizing: border-box;
+	font-weight: 500;
+	justify-content: center;
+	justify-content: center;
+	letter-spacing: .25px;
+	align-items: center;
+	background-color: #fff;
+	height: 28px;
+	box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+	box-sizing: border-box;
+
 }
 
 #moneybar {
